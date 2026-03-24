@@ -1,0 +1,9 @@
+proxmox_node: "proxmox"
+vm_name: "vm-prd"
+vm_id: 300
+memory: 512
+cores: 2
+sockets: 1
+disk_size: "10G"
+storage: "local"
+iso: "local:iso/lubuntu-16.04.6-desktop-amd64.iso"
