@@ -5,5 +5,5 @@ memory: 512
 cores: 2
 sockets: 1
 disk_size: "10G"
-storage: "local"
+storage: "local-lvm"
 iso: "local:iso/lubuntu-16.04.6-desktop-amd64.iso"
