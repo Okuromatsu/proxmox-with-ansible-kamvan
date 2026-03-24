@@ -27,6 +27,8 @@
         cores: "{{ cores }}"
         sockets: "{{ sockets }}"
         scsihw: virtio-scsi-pci
+        scsi:
+          scsi0: "{{ storage }}:{{ disk_size }}"
         ide:
           ide2: "{{ iso }},media=cdrom"
         boot: "order=ide2"
